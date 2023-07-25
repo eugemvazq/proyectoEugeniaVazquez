@@ -8,26 +8,46 @@
     <title>Tips | Viajes y Sueños</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="../favicon.ico.PNG">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/3167d4d59b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="encabezado">
-        <nav>
-            <a href="../index.html">
-                <img class="logo" src="../assets/img/Logo.PNG"
-                    alt="Logo con leyenda viajes y sueños turismo, con la imagen de una maleta y una luna con estrellas">
-            </a>
-
-            <ul class="menu">
-                <li class="navbar"><a class="listaItem" href="../index.html">Inicio</a></li>
-                <li class="navbar"><a class="listaItem" href="./info.html">Info</a></li>
-                <li class="navbar"><a class="listaItem" href="./pasajeros.html">Pasajeros</a></li>
-                <li class="navbar"><a class="listaItem" href="#">Tips</a></li>
-                <li class="navbar"><a class="listaItem" href="./contacto.html">Contacto</a></li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/Logo.PNG" class="rounded-circle"
+                        alt="Logo con leyenda viajes y sueños turismo, con la imagen de una maleta y una luna con estrellas">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="listaItem" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem" href="./info.html">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem" href="./pasajeros.html">Pasajeros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem active" aria-current="page" href="#">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem" href="./contacto.html">Contacto</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -38,26 +58,31 @@
 
             <!--Acá iría una lista de items a tener en cuenta para elegir el o los destinos de viaje y documntación necesaria, requisitos, etc... -->
 
-            <ul class="tips"><p>Documentación:</p>
+            <ul class="tips">
+                <p>Documentación:</p>
                 <li>Verificá los requisitos de visado y pasaporte para tu destino.</li>
                 <li>Asegurate de tener una copia de seguridad de tus documentos de identidad.</li>
                 <li>Comprobá la vigencia de tu pasaporte y renovalo si es necesario.</li>
                 <li>Informate sobre los requisitos de entrada y salida del país que visitarás.</li>
             </ul>
-            
-            <ul class="tips"><p>Destino:</p>
+
+            <ul class="tips">
+                <p>Destino:</p>
                 <li>Es importante tener en cuenta el clima, la cultura y las costumbres del lugar que visitarás.</li>
                 <li>Infórmate sobre los lugares turísticos, actividades y eventos especiales.</li>
                 <li>Consulta las recomendaciones de viaje y advertencias del gobierno para el destino.</li>
             </ul>
 
-            <ul class="tips"><p>Reservas y transporte:</p>
+            <ul class="tips">
+                <p>Reservas y transporte:</p>
                 <li>Reservá tus vuelos con anticipación para obtener mejores precios.</li>
                 <li>Considerá contratar un seguro de viaje que te brinde cobertura médica y protección adicional.</li>
-                <li>Investigá las opciones de transporte local en tu destino, como taxis, transporte público o alquiler de vehículos, etc.</li>
+                <li>Investigá las opciones de transporte local en tu destino, como taxis, transporte público o alquiler
+                    de vehículos, etc.</li>
             </ul>
-        
-            <ul class="tips"><p>Equipaje, preparación y seguridad:</p>
+
+            <ul class="tips">
+                <p>Equipaje, preparación y seguridad:</p>
                 <li>Verificá las restricciones de equipaje de la aerolínea y asegúrate de cumplirlas.</li>
                 <li>Empacá ropa y accesorios adecuados para el clima y las actividades previstas.</li>
                 <li>Dejá copias de tus itinerarios y detalles de contacto a un familiar o amigo.</li>
@@ -65,23 +90,69 @@
                 <li>Informate sobre las regulaciones de seguridad del lugar y seguí las recomendaciones locales.</li>
                 <li>Notificá a tu banco sobre tu viaje para evitar bloqueos de tarjetas por uso en el extranjero.</li>
             </ul>
-        
-            <p class="tips"> Recordá que cada viaje es único por lo que es importante adaptar estos consejos a tus necesidades y preferencias específicas. Estamos para ayudarte en cada paso para que puedas disfrutar de tu aventura.</p>
+
+            <p class="tips"> Recordá que cada viaje es único por lo que es importante adaptar estos consejos a tus
+                necesidades y preferencias específicas. Estamos para ayudarte en cada paso para que puedas disfrutar de
+                tu aventura.</p>
         </section>
     </main>
 
-    <footer class="pie">
-        <p>Instagram: <a target="_blank" href="https://www.instagram.com/vickkyvazq/"> @vickkyvazq</a></p>
-        <p>Teléfono: (011-40706530)</p>
-        <p>Ubicación: Av. Duarte Quirós y Vieytes, Córdoba <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2858009250187!2d-64.21473163045034!3d-31.410180353814372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298999777efeb%3A0x62970a98c8bcc979!2sHip%C3%B3lito%20Vieytes%20%26%20Av.%20Duarte%20Quir%C3%B3s%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1687210048911!5m2!1ses!2sar"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"> Ubicación: Av. Duarte Quirós y Vieytes, Córdoba</iframe>
-        </p>
-        <p> Viajes y Sueños Turismo - Todos los derechos reservados &copy; </p>
-    </footer>
+    <section class="footer">
+        <!-- Footer -->
+        <footer class=" text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+                    <!--Grid column-->
+
+
+                    <div class="col-md-6 ">
+
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                                <a href="https://www.instagram.com/viajesysuenos_turismo/"
+                                    class="text-white">@viajesysuenos_turismo</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                                <a href="#!" class="text-white">(+54) 11-40707031</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class=" col-md-6 ">
+                        <h6><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                            <a href="#!" class="text-white">Av. Duarte Quiros y Vieytes, Cordoba, Argentina</a>
+                        </h6>
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.140349523848!2d-64.2135839!3d-31.410259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432989984d992db%3A0x2a017a92c4067f86!2sHip%C3%B3lito%20Vieytes%20255%2C%20X5002JGE%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1690311567624!5m2!1ses!2sar"
+                            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+
+
+
+                </div>
+                <!-- Grid container -->
+
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2023 Copyright:
+                    <a class="text-white">ViajesySueños.com</a>
+                </div>
+                <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
 </body>
+
 </html>

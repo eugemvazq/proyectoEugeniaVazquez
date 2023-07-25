@@ -8,32 +8,53 @@
     <title>Contacto | Viajes y Sueños</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="../favicon.ico.PNG">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/3167d4d59b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="encabezado">
-        <nav>
-            <a href="../index.html">
-                <img class="logo" src="../assets/img/Logo.PNG"
-                    alt="Logo con leyenda viajes y sueños turismo, con la imagen de una maleta y una luna con estrellas">
-            </a>
-            <ul class="menu">
-                <li class="navbar"><a class="listaItem" href="../index.html">Inicio</a></li>
-                <li class="navbar"><a class="listaItem" href="./info.html">Info</a></li>
-                <li class="navbar"><a class="listaItem" href="./pasajeros.html">Pasajeros</a></li>
-                <li class="navbar"><a class="listaItem" href="./tips.html">Tips</a></li>
-                <li class="navbar"><a class="listaItem" href="#">Contacto</a></li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/Logo.PNG" class="rounded-circle"
+                        alt="Logo con leyenda viajes y sueños turismo, con la imagen de una maleta y una luna con estrellas">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="listaItem" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem" href="./info.html">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem" href="./pasajeros.html">Pasajeros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem" href="./tips.html">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="listaItem  active" aria-current="page" href="#">Contacto</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
         <section>
             <h1 class="titulo">Pedí la cotización para el viaje de tus sueños</h1>
-            <div>
+            <div class="container">
                 <form class="contacto" action="">
                     <div>
                         <legend>Completá los siguientes datos:</legend>
@@ -143,16 +164,62 @@
         </section>
     </main>
 
-    <footer class="pie">
-        <p>Instagram: <a target="_blank" href="https://www.instagram.com/vickkyvazq/"> @vickkyvazq</a></p>
-        <p>Teléfono: (011-40706530)</p>
-        <p>Ubicación: Av. Duarte Quirós y Vieytes, Córdoba <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2858009250187!2d-64.21473163045034!3d-31.410180353814372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298999777efeb%3A0x62970a98c8bcc979!2sHip%C3%B3lito%20Vieytes%20%26%20Av.%20Duarte%20Quir%C3%B3s%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1687210048911!5m2!1ses!2sar"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"> Ubicación: Av. Duarte Quirós y Vieytes, Córdoba</iframe>
-        </p>
-        <p> Viajes y Sueños Turismo - Todos los derechos reservados &copy; </p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <section class="footer">
+        <!-- Footer -->
+        <footer class=" text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+
+
+                    <!--Grid column-->
+
+
+                    <div class="col-md-6 ">
+
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                                <a href="https://www.instagram.com/viajesysuenos_turismo/"
+                                    class="text-white">@viajesysuenos_turismo</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                                <a href="#!" class="text-white">(+54) 11-40707031</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class=" col-md-6 ">
+                        <h6><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                            <a href="#!" class="text-white">Av. Duarte Quiros y Vieytes, Cordoba, Argentina</a>
+                        </h6>
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.140349523848!2d-64.2135839!3d-31.410259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432989984d992db%3A0x2a017a92c4067f86!2sHip%C3%B3lito%20Vieytes%20255%2C%20X5002JGE%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1690311567624!5m2!1ses!2sar"
+                            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+
+
+
+                </div>
+                <!-- Grid container -->
+
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2023 Copyright:
+                    <a class="text-white">ViajesySueños.com</a>
+                </div>
+                <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
 </body>
+
 </html>
