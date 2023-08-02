@@ -1,0 +1,33 @@
+.pie {
+    background-color: $color-principal;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-family: $fuente-secundaria; 
+    font-size: 1em;
+    color: #FFFFFF;
+    .pie p {
+        font-family: $fuente-secundaria;
+        font-size: 1em;
+        color: #FFFFFF;
+        
+    }
+}
+
+.copyright {
+    background-color: #590668;
+    font-family: $fuente-secundaria;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-left: 15px;
+    height: 3rem;
+    width:auto;
+}
+
+.fa-brands {
+    padding: 0.75rem;
+}
+
+.fa-solid {
+    padding: 0.75rem;
+  }

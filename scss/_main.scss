@@ -1,0 +1,100 @@
+.titulo {
+    font-family: $fuente-titulos;
+    font-size: 1.5em;
+    color: $color-fuente;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subtitulo {
+    font-family: $fuente-titulos;
+    font-size: 1.2em;
+    color: $color-fuente;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.parrafoPrincipal {
+    font-family: $fuente-secundaria;
+    font-size: 1em;
+    color: $color-fuente;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 60px;
+    margin-left: 60px
+}
+
+legend {
+    font-family: $fuente-titulos;
+    font-size: 1.2em;
+    color: $color-fuente;
+    padding: 5px;
+}
+
+input {
+    padding: 3px;
+    margin: 3px;
+}
+
+.campoFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+
+}
+
+.imagen img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.imagen p {
+    color: $color-fuente;
+    text-align: start;
+    margin-top: 5px;
+}
+
+.tips p {
+    font-family: $fuente-secundaria;
+    color: $color-fuente;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.tips {
+    font-family: $fuente-secundaria;
+    font-size: 1em;
+    color: $color-fuente;
+
+}
+
+.contacto {
+    font-family: $fuente-secundaria;
+    font-size: 1em;
+    color: $color-fuente;
+    align-items: center;
+}

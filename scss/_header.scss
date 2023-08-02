@@ -1,0 +1,26 @@
+.encabezado {
+    position: sticky;
+    top: 0;
+    background-color: $color-principal;
+}
+
+.navbar {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    color: $color-contraste;
+    border-color: $color-contraste;
+    background-color: rgb(240, 166, 236);
+    border: 1px solid rgba(14, 13, 13, 0.274);
+}
+
+.listaItem {
+    text-decoration: none;
+    color: $color-contraste;
+    font-family: $fuente-secundaria;
+    font-size: 1em;
+    padding: 10px;
+    display: flex;
+}
