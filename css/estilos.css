@@ -129,6 +129,26 @@ input {
   align-items: center;
 }
 
+#submit {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  background-color: #590668;
+  border-radius: 8px 8px 8px 8px;
+}
+#submit:hover {
+  background: #9c27b0;
+}
+
+.error404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
 .pie {
   background-color: #9c27b0;
   width: 100%;
@@ -142,6 +162,11 @@ input {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   color: #FFFFFF;
+}
+
+.map-container {
+  padding: 10px;
+  margin-left: 25px;
 }
 
 .copyright {

@@ -98,3 +98,23 @@ input {
     color: $color-fuente;
     align-items: center;
 }
+
+#submit{
+    font-family: $fuente-secundaria;
+    color: white;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    background-color: #590668;
+    border-radius: 8px 8px 8px 8px;
+        &:hover {
+        background: $color-principal;
+    }
+}
+
+.error404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  
+}
