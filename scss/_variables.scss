@@ -6,3 +6,8 @@ $color-contraste: white;
 // Fuentes
 $fuente-secundaria: "Montserrat", sans-serif;
 $fuente-titulos: "Roboto Serif", serif;
+
+@mixin texto-resaltado{
+    $fuente-secundaria:$color-fuente;
+    font-weight: bold;
+}

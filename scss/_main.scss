@@ -29,6 +29,20 @@
     margin-left: 60px
 }
 
+.negrita{
+    @include texto-resaltado;
+}
+
+.pasos{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-mobile {
+    max-width: 100%;
+    height: auto;
+}
+
 legend {
     font-family: $fuente-titulos;
     font-size: 1.2em;
@@ -82,7 +96,6 @@ input {
     color: $color-fuente;
     font-size: 1.2em;
     font-weight: bold;
-
 }
 
 .tips {
@@ -91,6 +104,7 @@ input {
     color: $color-fuente;
 
 }
+
 
 .contacto {
     font-family: $fuente-secundaria;
